@@ -1,4 +1,15 @@
 .header{
-    background: #333;
-    height: 88px;
+   background: var(--gray-800);
+   display: flex;
+   justify-content: center;
+   padding: 1.25rem 0; 
+   /* 1rem => 16px
+    0.25 => 16/4 = 4px
+    1.25rem = 20px  
+*/
+
+}
+
+.header img{
+     height: 2rem; /*32px*/
 }
