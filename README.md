@@ -1,16 +1,17 @@
 # Ignite Feed
 <p align="center">
-  <img src="./.github/logo.png" alt="wallpaper do projeto ignite feed" width="300"/>
+  <img src="./.github/wallpaper.png" alt="wallpaper do projeto ignite feed" width="300"/>
   <br>
 </p>
-<h3 align="center">
-Eventos incríveis em um só lugar!
-</h3>
-
-<img src="/wallpaper.png" alt="wallpaper do projeto ignite feed" />
+<h3 align="center">Eventos incríveis em um só lugar!</h3>
 
 Ignite feed é um projeto simples que simula o feed das redes sociais,<br> com funcionalidades de comentários, likes e apagar comentário.
-
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=Lab&message=Reactjs&color=blueviolet&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/license/arkanael/ignite-lab-react?color=blueviolet&logo=License&style=for-the-badge"/>
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/arkanael/ignite-lab-react?color=blueviolet&logo=typeScript&logoColor=white&style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/arkanael/ignite-lab-react?color=blueviolet&style=for-the-badge">
+</p>
 
 ## Funcionalidades
 
