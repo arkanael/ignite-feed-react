@@ -36,28 +36,42 @@ Ignite feed é um projeto simples que simula o feed das redes sociais,<br> com f
   [x] - apagar comentário<br>
 </ul>
 
-## Como usar
+## Instalação
 
-1. Clonar repositório
-``git clone https://github.com/arkanael/ignite-feed-react.git ``
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+Além disso é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
-2. Instalar dependências
-``yarn`` ou ``npm i``
+### 🖥️ Rodando o Front End (Web)
 
-3. Subir projeto Local
-``yarn dev`` ou ``npm run dev``
+```bash
+# Clone este repositório
+$ git clone git@github.com:arkanael/ignite-lab-react.git
 
-4. Acessar projeto
-``http://localhost:3000/``
+# Acesse a pasta do projeto no terminal/cmd
+$ cd ignite-feed-react
+
+# Instale as dependências
+$ npm install
+# Caso prefira usar o Yarn execute o comando abaixo
+$ yarn
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+# Caso prefira usar o Yarn execute o comando abaixo
+$ yarn dev
+
+# O servidor inciará na porta 3000 - acesse <http://localhost:3000>
+```
 
 ## Tecnologias utilizadas
 
 <ul>
-  <li>ReactJS</li><br>
-  <li>Vite</li><br>
-  <li>React Dom</li><br>
-  <li>Date-fns</li><br>
-  <li>Phosphor-react</li><br>
+  <li>ReactJS</li>
+  <li>Vite</li>
+  <li>React Dom</li>
+  <li>Date-fns</li>
+  <li>Phosphor-react</li>
 </ul>
 
 ## Considerações finais
