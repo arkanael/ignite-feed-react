@@ -1,4 +1,11 @@
 # Ignite Feed
+<p align="center">
+  <img src="./.github/logo.png" alt="wallpaper do projeto ignite feed" width="300"/>
+  <br>
+</p>
+<h3 align="center">
+Eventos incríveis em um só lugar!
+</h3>
 
 <img src="/wallpaper.png" alt="wallpaper do projeto ignite feed" />
 
