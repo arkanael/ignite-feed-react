@@ -3,11 +3,10 @@
 <h3 align="center">Eventos incríveis em um só lugar!</h3>
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=Lab&message=Reactjs&color=blueviolet&style=for-the-badge"/>
-  <img src="https://img.shields.io/github/license/arkanael/ignite-lab-react?color=blueviolet&logo=License&style=for-the-badge"/>
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/arkanael/ignite-lab-react?color=blueviolet&logo=typeScript&logoColor=white&style=for-the-badge">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/arkanael/ignite-lab-react?color=blueviolet&style=for-the-badge">
+  <img src="https://img.shields.io/github/license/arkanael/ignite-feed-react?color=blueviolet&logo=License&style=for-the-badge"/>
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/arkanael/ignite-feed-react?color=blueviolet&logo=javascript&logoColor=white&style=for-the-badge">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/arkanael/ignite-feed-react?color=blueviolet&style=for-the-badge">
 </p>
-
 <p align="center">
   <a href="#sobre">Sobre</a> •
   <a href="#ignite-feed---react">Ignite Lab - React</a> •
