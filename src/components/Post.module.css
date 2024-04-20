@@ -1,3 +1,75 @@
 .post{
-    
+    background: var(--gray-800); /*Cor de fundo*/
+    border-radius: 8px; /*Borda arredondada*/
+    padding: 2.5rem; /*Espaçamento interno de 45px*/
+}
+
+/*+ estiliza todo post que antes dele tenha um post também ou seja só aplica com post que tenha outro post antes dele*/
+.post + .post{
+    margin-top: 2rem; /*Margem do topo de 32px*/
+}
+
+.content{
+    line-height: 1.6;
+    color: var(--gray-300); /*Cor da fonte*/
+
+}
+
+.content p {
+    margin-top: 1rem; /*Margem de 16px*/
+}
+
+.content p a{
+    font-weight: bold; /*Peso da fonte*/
+    color: var(--green-500); /*Cor da fonte*/
+    text-decoration: none; /*Retirar a linha do href*/
+
+}
+
+.content p a:hover{
+    color: var(--green-300); /*Mudar a cor ao passar o mouse em cima*/
+}
+
+/*> aó vai aplicar a estilização somente no primeiro nivel*/
+.post > header{
+    display: flex; /**/
+    align-items: center; /*Alinhar o conteudo ao centro*/
+    justify-content: space-between; /*Vai deixa um espaço entre os elementos, deixando cada um num canto*/
+}
+
+.post > header time{
+    font-size: 0.875rem; /*Tamanho da fonte em 14px*/
+    color: var(--gray-400); /*Cor da fonte*/
+}
+
+.author{
+    display: flex;
+    align-items: center; /*Alinhar o conteudo ao centro*/
+    gap: 1rem; /*Espaçamento de 16px*/
+}
+
+.author img{
+    box-sizing: initial; /*Não deixa o elemento diminuir devido as bordas ocuparem espaços*/
+    width: 3rem; /*Largura*/
+    height: 3rem; /*Altura*/
+    border-radius: 8px; /*Borda arredondada*/
+    border: 4px solid var(--gray-800); /*Borda solida com cor*/
+    outline: 2px solid var(--green-500); /*Linha ao redor da borda na cor verde*/
+}
+
+.authorInfo{
+    display: flex;
+    flex-direction: column; /*Força os elementos em colunas ficando um abaixo do outro*/
+
+}
+
+.authorInfo strong{
+    color: var(--gray-100);
+    line-height: 1.6;
+}
+
+.authorInfo span{
+    font-size: 0.875rem; /*Tamanho da fonte 14px*/
+    color: var(--gray-400); /*Cor da fonte*/
+    line-height: 1.6;
 }
