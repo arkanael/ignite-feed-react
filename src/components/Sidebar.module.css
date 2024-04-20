@@ -1,13 +1,13 @@
 .sidebar{
-    background: var(--gray-800);
-    border-radius: 8px;
+    background: var(--gray-800); /*Cor de fundo*/
+    border-radius: 8px; /*Borda arredondada*/
     overflow: hidden; /*Esconde o conteudo que sai do elemento*/
 }
 
 .cover{
-    width: 100%;
-    height: 72px;
-    object-fit: cover;
+    width: 100%; /*Largura*/
+    height: 72px; /*Altura*/
+    object-fit: cover; /*Corta um pedaço da imagem centralizado*/
 }
 
 .profile{
@@ -15,41 +15,41 @@
     flex-direction: column; /*mater o nome usuario e cargo um do lado do outro*/
     align-items: center;
 
-    margin-top: calc(0px - 1.5rem - 6px)
+    margin-top: calc(0px - 1.5rem - 6px); /*Margem do topo negativo*/
 }
 
 .profile strong{
-    margin-top: 1rem;
-    color: var(--gray-100);
+    margin-top: 1rem; /*Margem do topo de 16px*/
+    color: var(--gray-100); /*Cor da fonte cinza claro*/
 
     line-height: 1.6;
 }
 
 .profile span{
-    font-size: 0.875rem;
-    color: var(--gray-400);
+    font-size: 0.875rem /*Tamanho da fonte de 14px / 16px = 0.875rem /*/;
+    color: var(--gray-400); /*Cor da fonte*/
     line-height: 1.6;
 
 }
 
 .avatar{
     box-sizing: initial; /*Não deixa o elemento diminuir devido as bordas ocuparem espaços*/
-    width: 3rem;
-    height: 3rem;
-    border-radius: 8px;
-    border: 4px solid var(--gray-800);
-    outline: 2px solid var(--green-500);
+    width: 3rem; /*Largura*/
+    height: 3rem; /*Altura*/
+    border-radius: 8px; /*Borda arredondada*/
+    border: 4px solid var(--gray-800); /*Borda solida com cor*/
+    outline: 2px solid var(--green-500); /*Linha ao redor da borda na cor verde*/
 }
 
 .sidebar footer{
-    border-top: 1px solid var(--gray-600);
-    margin-top: 1.5rem;
+    border-top: 1px solid var(--gray-600); /**/
+    margin-top: 1.5rem; /*Margem de cima*/
     padding: 1.5rem 2rem 2rem;
 }
 
 .sidebar footer a{
     background: transparent;
-    color: var(--green-500);
+    color: var(--green-500); /*Cor da fonte*/
     border: 1px solid var(--green-500);
     border-radius: 8px;
     height: 50px;
@@ -59,14 +59,14 @@
     text-decoration: none;
 
     display: flex;
-    align-items: center;
+    align-items: center; /*Alinhamento ao centro*/
 
-    gap: 0.5rem;
+    gap: 0.5rem; /*Espaçamento de 12px*/
 
-    transition: color 0.1s, background-color 0.1s ;
+    transition: color 0.2s, background-color 0.2s ; /*Transição para o hover de cor da fonte e do fundo*/
 }
 
 .sidebar footer a:hover{
-    background: var(--green-500);
-    color: var(--white);
+    background: var(--green-500); /*Cor do fundo ao passar o mouse em cima (hover)*/
+    color: var(--white); /*Cor da fonte ao passar o mouse em cima (hover)*/
 }
