@@ -73,3 +73,58 @@
     color: var(--gray-400); /*Cor da fonte*/
     line-height: 1.6;
 }
+
+.commentForm{
+    width: 100%; /*Tamanho padrão*/
+    margin-top: 1.5rem; /*Margem do topo*/
+    padding-top: 1.5rem; /*Espaçamente interno do topo*/
+    border-top: 1px solid var(--gray-600); /*Aplica uma linha no topo*/
+
+}
+
+.commentForm > strong{
+    line-height: 1.6;
+    color: var(--gray-100); /*Cor da fonte*/   
+}
+
+.commentForm textarea{
+    width: 100%; /*Largura padrão de 100%*/
+    background: var(--gray-900); /*Cor de fundo*/
+    border: 0; /*Sem borda*/
+    resize: none; /*Proibir redimensionamento*/
+    height: 6rem; /*Altura padrão de 96px*/
+    padding: 1rem; /*Espaçamento interno*/
+    border-radius: 8px; /*Brodas arredondadas*/
+    color: var(--gray-100); /*Cor da fonte*/
+    line-height: 1.4;
+    margin-top: 1.4rem; /*Margem do topo*/
+
+}
+
+.commentForm footer{
+    visibility: hidden; /*Esconde o elemento*/
+    max-height: 0; /*Tamanho maximo*/
+}
+
+/*Se houver um foco em qualquer elemento dentro do commntform*/
+.commentForm:focus-within footer{
+    visibility: visible;
+    max-height: none; /*Tamanho maximo em none*/
+}
+
+.commentForm button[type=submit]{
+    padding: 1rem 1.5rem; /*Espaçamento intero topo e laterais*/
+    margin-top: 1rem; /*Margem do topo */
+    border-radius: 8px; /*Brodas arredondadas*/
+    border: 0; /*Sem borda*/
+    background: var(--green-500); /*Cor de fundo*/
+    color: var(--white); /*Cor da fonte*/
+    cursor: pointer; /*Mudar a seta do mouse para a mão*/
+    transition: background-color 0.1s; /*Transição para troca de cor em 0.1s*/
+
+
+}
+
+.commentForm button[type=submit]:hover{
+    background: var(--green-300); /*Cor de fundo*/
+}
