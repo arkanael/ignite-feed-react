@@ -128,3 +128,7 @@
 .commentForm button[type=submit]:hover{
     background: var(--green-300); /*Cor de fundo*/
 }
+
+.commentList{
+    margin-top: 2rem; /*Margem do topo*/
+}

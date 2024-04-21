@@ -1,3 +1,95 @@
 .comment{
-    
+    margin-top: 1.5rem; /*Margem do topo*/
+    display: flex; /**/
+    gap: 1rem; /*Espaçamento*/
+}
+
+.comment > img {
+    box-sizing: initial; /*Não deixa o elemento diminuir devido as bordas ocuparem espaços*/
+    width: 3rem; /*Largura*/
+    height: 3rem; /*Altura*/
+    border-radius: 8px; /*Borda arredondada*/
+}
+
+.commentBox{
+    flex: 1; /*Faz com  que a div ao lado ocupe o máximo de espaço*/
+}
+
+.commentContent{
+    background: var(--gray-700); /*Cor de fundo*/
+    border-radius: 8px; /*Borda arredondadas*/
+    padding: 1rem; /*Espaçamento interno*/
+}
+
+.commentContent header {
+    display: flex;
+    align-items: flex-start; /*Alinhado ao inicio do elemento(parte de cima)*/
+    justify-content: space-between; /*Para deixar cada elemento em uma ponta*/
+
+}
+
+/* 
+.authorAndTime{
+    display: flex;
+    flex-direction: column; 
+} */
+
+.authorAndTime Strong{
+    display: block;
+    font-size: 0.875rem; /*Tamanho da fonte 15px*/
+    line-height: 1.6;
+}
+
+.authorAndTime time{
+    display: block;
+    font-size: 0.75rem; /*Tamanho da fonte 14px*/
+    line-height: 1.6;
+    color: var(--gray-400) /*Cor da fonte*/
+
+}
+
+.commentContent header button {
+    background: transparent; /*Tirar a cor do fundo*/
+    border: 0; /*Tirar a borda*/
+    color: var(--gray-400); /*Cor da fonte*/
+    cursor: pointer; /*Mudar o cursor para mãozinha*/
+    line-height: 0; /*Para deixar a seleção(focus) do botão colada no icone*/
+    border-radius: 2px; /*Borda arredondados*/
+}
+
+.commentContent header button:hover{
+    color: var(--red-500);
+}
+
+.commentContent p{
+    margin-top: 1rem;
+    color: var(--gray-300);
+}
+
+.commentBox footer{
+    margin-top: 1rem;
+}
+
+.commentBox footer button{
+    background: transparent;
+    border: 0;
+    color: var(--gray-400);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    border-radius: 2px;
+}
+
+.commentBox footer button:hover{
+    color: var(--green-300);
+}
+
+.commentBox footer button svg{
+    margin-right: 0.5rem;
+}
+
+.commentBox footer button span::before{
+    content: "\2022";
+    padding: 0 0.25rem;
 }
