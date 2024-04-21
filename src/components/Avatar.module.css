@@ -1,0 +1,14 @@
+.avatar{
+    width: 3rem; /*Largura*/
+    height: 3rem; /*Altura*/
+    border-radius: 8px; /*Borda arredondada*/
+}
+
+.avatarWithBorder{
+    box-sizing: initial; /*Não deixa o elemento diminuir devido as bordas ocuparem espaços*/
+    width: 3rem; /*Largura*/
+    height: 3rem; /*Altura*/
+    border-radius: 8px; /*Borda arredondada*/
+    border: 4px solid var(--gray-800); /*Borda solida com cor*/
+    outline: 2px solid var(--green-500); /*Linha ao redor da borda na cor verde*/
+}

@@ -1,3 +1,4 @@
+import { Avatar } from './Avatar';
 import { Comment } from './Comment';
 import styles from './Post.module.css'
 
@@ -7,7 +8,7 @@ export function Post(){
         <article className={styles.post}> 
             <header> {/*header: é geralmente encontrado no topo de um documento, uma seção ou um artigo e geralmente contém o cabeçalho principal da página e algumas navegações e barras de busca */}
                 <div className={styles.author}>
-                    <img className={styles.avatar} src="https://avatars.githubusercontent.com/u/9624274?v=4" />
+                    <Avatar src="https://avatars.githubusercontent.com/u/9624274?v=4"  />
                     <div className={styles.authorInfo}>
                         <strong>Luiz Guilherme Bandeira</strong>
                         <span>Developer</span>
